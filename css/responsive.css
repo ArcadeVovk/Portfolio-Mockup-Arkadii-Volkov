@@ -1,0 +1,112 @@
+@media screen and (max-width: 850px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .header-logo {
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+  }
+
+  .personal-info {
+    top: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+
+  .pic-div {
+    order: 0;
+    width: 250px;
+    margin: auto;
+  }
+
+  .info-div {
+    order: 1;
+    width: 80%;
+    margin: auto;
+  }
+
+  .featured-header {
+    margin: 10px 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .fig-img-1 {
+    order: 0;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .fig-img-2 {
+    order: 1;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .fig-img-3 {
+    order: 2;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .img {
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  .article-content {
+    flex-wrap: nowrap;
+  }
+
+  .pic-div {
+    order: 1;
+    width: 250px;
+    margin: 20px 10px;
+  }
+
+  .info-div {
+    order: 0;
+    min-width: 200px;
+    max-width: 60%;
+    margin: 0 10px;
+  }
+
+  .featured-header {
+    text-align: inherit;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 710px) and (max-width: 850px) {
+  .info-div {
+    width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img {
+    margin-left: 20px;
+  }
+
+  .fig-img-1, .fig-img-2, .fig-img-3 {
+    width: 50%;
+  }
+}
